@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "lunlun/duanzi",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "lunlun/image",
+    "lunlun/video"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "伦伦段子",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "lunlun/duanzi",
+        "text": "段子",
+        "iconPath": "images/gx.png",
+        "selectedIconPath": "images/gx1.png"
+      },
+      {
+        "pagePath": "lunlun/image",
+        "text": "图片",
+        "iconPath": "images/tp.png",
+        "selectedIconPath": "images/tp1.png"
+      },
+      {
+        "pagePath": "lunlun/video",
+        "text": "视频",
+        "iconPath": "images/sp.png",
+        "selectedIconPath": "images/sp1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
